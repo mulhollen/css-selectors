@@ -1,0 +1,70 @@
+/* 1 */
+header {
+border: 1px solid red;
+
+}
+
+/* 2 */
+nav li {
+    display: inline;
+    list-style-type: none;
+    padding: 1em;
+}
+
+
+/* 4 */
+.disabled {
+    color: grey;
+}
+
+a .disabled {
+    color: purple;
+}
+
+/* 5 */
+.active {
+    color: yellow;
+}
+
+/* 8 */
+.red {
+    color: red;
+}
+
+/* 9 */
+.blue {
+    color: blue;
+}
+
+/* 10 */
+.red + h4 {
+    background-color: red;
+}
+
+/* 11 */
+.blue + h4 {
+    background-color: blue;
+}
+
+/* 12 */
+.grandparent > h4 {
+    border: solid 1px black;
+    border-radius: 25px;
+}
+
+/* 13 */
+
+.promo {
+    color: gold;
+    font-weight: bold;
+}
+/* May is already ruled by a .disabled */
+a .promo {
+    color: gold;
+    font-weight: bold;
+}
+
+/* 14 */
+input {
+    height: 25px;
+}
